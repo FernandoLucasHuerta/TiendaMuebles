@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Muebleria</title>
+</head>
+<body>
+    <header class="header text-center">
+            <h1 class="header-heading">Tienda <span class="span-header">Muebles</span></h1>
+    </header>
+    <div class="contenedor-navegacion">
+        <nav class="nav">
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="nosotros.html" class="nav-link">Nosotros</a>
+            <a href="tienda.html" class="nav-link">Tienda</a>
+            <a href="blog.html" class="nav-link">Blog</a>
+            <a href="galeria.html" class="nav-link">Galeria</a>
+            <a href="contacto.html" class="nav-link">Contacto</a>
+        </nav>
+    </div>
+
+    <main class="principal contenedor">
+        <h2 class="contacto-heading text-center">Contacto</h2>
+        <form class="formulario">
+            <fieldset>
+                <legend class="legend-heading">Tus Datos</legend>
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" placeholder="Nombre..." required>
+                </div>
+
+                <div class="campo">
+                    <label for="asunto">Asunto</label>
+                    <input id="asunto" type="text" placeholder="Asunto..." required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input id="asunto" type="email" placeholder="E-mail..." required>
+                </div>
+                
+                <div class="campo">
+                    <label for="tel">Telefono</label>
+                    <input id="tel" type="tel" placeholder="Telefono..." required>
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea cols="50" rows="10"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend class="legend-heading">Pais</legend>
+                <div class="campo">
+                    <label for="pais">Pais</label>
+                    <select id="pais">
+                        <option value=""> --Seleccione-- </option>
+                        <option value="mx"> Mexico </option>
+                        <option value="co"> Colombia </option>
+                        <option value="usa"> Estados Unidos </option>
+                        <option value="arg"> Argentina </option>
+                        <option value="chi"> Chile </option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend class="legend-heading">Información Extra</legend>
+                <div class="campo">
+                    <label for="cliente">Cliente</label>
+                    <input class="radio" type="radio" name="cliente" id="cliente">
+                </div>
+
+                <div class="campo">
+                    <label for="provedor">Proveedor</label>
+                    <input class="radio" type="radio" name="provedor" id="provedor">
+                </div>
+
+                <div class="campo">
+                    <label for="interes">Categoria de Interes</label>
+                    <input type="text" name="interes" id="interes">
+                </div>
+            </fieldset>
+
+            <input href="#" class="btn" value="Enviar Formulario">
+        </form>
+    </main>
+
+    
+<footer class="footer">
+    <div class=" border-footer contenedor">
+        <div class="footer-grid">
+            <div class="listado-footer">
+                <h3 class="footer-description">Categorias</h3>
+                <nav class="nav-footer">
+                    <a href="#" class="nav-footer">Inicio</a>
+                    <a href="#" class="nav-footer">Nosotros</a>
+                    <a href="#" class="nav-footer">Tienda</a>
+                    <a href="#" class="nav-footer">Blog</a>
+                    <a href="#" class="nav-footer">Galeria</a>
+                    <a href="#" class="nav-footer">Contacto</a>
+                </nav>
+            </div>
+
+            <div class="listado-footer">
+                <h3 class="footer-description">Categorias</h3>
+                <nav class="nav-footer ">
+                    <a href="#" class="nav-footer">Inicio</a>
+                    <a href="#" class="nav-footer">Nosotros</a>
+                    <a href="#" class="nav-footer">Tienda</a>
+                    <a href="#" class="nav-footer">Blog</a>
+                    <a href="#" class="nav-footer">Galeria</a>
+                    <a href="#" class="nav-footer">Contacto</a>
+                </nav>
+            </div>
+
+            <div class="listado-footer">
+                <h3 class="footer-description">Categorias</h3>
+                <nav class="nav-footer">
+                    <a href="#" class="nav-footer">Inicio</a>
+                    <a href="#" class="nav-footer">Nosotros</a>
+                    <a href="#" class="nav-footer">Tienda</a>
+                    <a href="#" class="nav-footer">Blog</a>
+                    <a href="#" class="nav-footer">Galeria</a>
+                    <a href="#" class="nav-footer">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <p class="copyright text-center">Todos los Derechos Reservados&COPY;</p>
+</footer>
+
+</body>
+</html>
